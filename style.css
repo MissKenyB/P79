@@ -1,0 +1,118 @@
+body{
+	background-image: url("https://content.wepik.com/statics/4618721/preview-page0.jpg");
+	/* background-repeat: no-repeat; */ 
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #e7ee0f;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .menu_div{
+	margin-right: 200px;
+	margin-top: 200px;
+	float: right;
+	width: 30%;
+	padding:40px;
+	color: rgb(12, 13, 12);
+	font-size: 25px;
+	font-family: cursive;
+	background-color: #e7ee0f;
+  }
+  #menu_list{
+	background-color:#f5c71a;
+	color:black; 
+	width: 200px;
+	border: none;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	text-align: justify;
+	float: left;
+	width: 50%;
+	padding: 10px;
+	color: rgb(241, 204, 19);
+	font-size: 25px;
+	font-family: cursive;
+	background-color: #0c0805;
+  }
+
+  #add_toppings{
+	padding-left:10px;
+	width:140px;
+	height:30px;
+	border: none;
+	background-color:#f4cb17;
+	color:black;
+	font-size: 15px;
+	font-family: cursive;
+	border-radius: 10px;
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: #0c0805;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: rgb(56, 51, 51);
+ }
+
+#im1{
+	width:100px;
+	height: 80px;
+}
